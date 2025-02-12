@@ -1,16 +1,11 @@
-#### Desafio 1: Identificar Portas Abertas
+### Exercise 1:
+Find out the machine hardware name and submit it as the answer.
 
-##### Descrição do Desafio
-Use o Nmap para identificar portas abertas em um alvo.
-
-##### Ferramentas Utilizadas
-- Nmap
-
-##### Passos para Resolução
-1. Executei o comando `nmap -sV <IP>`.
-2. Identifiquei as portas 80 e 22 abertas.
-3. Verifiquei os serviços rodando nessas portas.
+#### Solution
+1. I use uname --help command to see details of the command on terminal
+2. Use uname -m to print machine name
 
 ##### Comandos Utilizados
 ```bash
-nmap -sV 10.10.10.1
+uname --help
+uname -m
