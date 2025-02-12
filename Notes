@@ -1,0 +1,17 @@
+# Notes and Tips
+
+### Connect a VPN
+1. Download VPN file
+2. Locate file on terminal
+3. Put on terminal:
+```bash
+sudo openvpn {vpnfile}
+```
+
+
+### Connect to ssh
+1. Put on terminal:
+```bash
+ssh {username}@{ipaddress}
+```
+2. Then enter the password.
